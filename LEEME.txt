@@ -1,18 +1,9 @@
-MI RANCHO INTELIGENTE — VERSIÓN 1
-
-REQUISITOS: Android + Chrome. Para instalación PWA y GPS se requiere servir estos archivos mediante HTTPS (o localhost para pruebas). Abrir index.html directamente desde archivos no habilita correctamente las funciones PWA.
-
-PUBLICACIÓN SENCILLA:
-1. Extrae este ZIP.
-2. Sube el contenido de la carpeta mi-rancho a un alojamiento estático HTTPS, como GitHub Pages o Netlify. No subas datos personales ni archivos de respaldo.
-3. Abre la URL HTTPS desde Chrome en Android con conexión al menos una vez.
-4. En menú de Chrome selecciona "Añadir a pantalla de inicio" o "Instalar aplicación" (según disponibilidad).
-5. Abre la aplicación y prueba sin señal. La app guarda registros localmente mediante localStorage.
-6. En Respaldo, exporta el archivo JSON y guárdalo en una ubicación segura.
-
-ALCANCE:
-- Registro individual de animales, movimientos financieros por actividad, tareas, lugares GPS y respaldo JSON.
-- No incluye sensores, cámaras, rastreo remoto, fotos ni sincronización entre dispositivos.
-- Los registros no están cifrados; usa bloqueo de pantalla. No se envían a servidores.
-- No borres los datos del navegador antes de exportar respaldo.
-- Esta es una versión piloto. Haz pruebas antes de confiarle información importante.
+RANCHO EL PARAISO v2.0
+Actualizacion de la version anterior con interfaz administrativa, tablas, vacunas y refuerzos.
+1. En la version anterior abre Respaldos y descarga una copia JSON ANTES de actualizar.
+2. Sube los archivos de este ZIP a la raiz del mismo repositorio GitHub, reemplazando los existentes.
+3. Comprueba GitHub Pages (main / root).
+4. En Chrome abre la pagina, actualiza y cierra y vuelve a abrir la aplicacion instalada.
+5. Los datos anteriores se conservan si usas el mismo origen y navegador. En caso contrario usa Restaurar respaldo.
+6. Vacunas y tratamientos requieren indicaciones de un veterinario.
+7. Los datos se almacenan localmente, no en GitHub. Realiza respaldos frecuentes.
